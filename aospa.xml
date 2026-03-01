@@ -52,7 +52,7 @@
   <remove-project name="platform/external/roboto-fonts" />
   <project path="external/roboto-fonts" name="android_external_roboto-fonts" remote="forks" />
   <remove-project name="platform/external/noto-fonts" />
-  <project path="external/noto-fonts" name="android_external_noto-fonts" remote="forks" />
+  <project path="external/noto-fonts" name="android_external_noto-fonts" remote="forks" revision="uvite" />
 
   <!-- External -->
   <project path="external/android-nn-driver" name="AOSPA/android_external_android-nn-driver" remote="aospa" />
@@ -92,7 +92,7 @@
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="forks" />
+  <project path="frameworks/base" name="android_frameworks_base-old" remote="forks"  revision="topaz" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <project path="frameworks/libs/systemui" name="AOSPA/android_frameworks_libs_systemui" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
@@ -151,13 +151,13 @@
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="forks" />
   <remove-project name="platform/packages/modules/Connectivity" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="forks" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity-old" remote="forks" revision="topaz" />
   <remove-project name="platform/packages/modules/common" />
   <project path="packages/modules/common" name="AOSPA/android_packages_modules_common" remote="aospa" />
   <remove-project name="platform/packages/modules/Permission" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="forks" />
   <remove-project name="platform/packages/modules/StatsD" />
-  <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="forks" />
+  <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="forks"  revision="uvite"/>
   <remove-project name="platform/packages/modules/Wifi" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="forks" />
   <remove-project name="platform/packages/providers/MediaProvider" />
