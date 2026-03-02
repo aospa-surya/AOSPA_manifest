@@ -25,7 +25,7 @@
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc-vendor-product.mk" src="nfc_vendor_product.mk"/>
   </project>
   <project remote="clo-la" name="platform/vendor/nxp/opensource/hidlimpl" path="vendor/nxp/opensource/hidlimpl" revision="27a5256cebc410e2348f7dade548e2bdf3c93090" upstream="refs/heads/nfc-vendor.lnx.13.0.r1-rel"/>
-  <project remote="clo-la" name="platform/vendor/nxp/opensource/keymaster" path="vendor/nxp/opensource/keymaster" revision="bcc898bfda0d44c45c9bba1d9fd0b0c9202ddc4e" upstream="refs/heads/ese-vendor.lnx.13.0.r1-rel">
+  <project remote="clo-la" name="platform/vendor/nxp/opensource/keymaster" path="vendor/nxp/opensource/keymaster" revision="031175abb37268320ac76ef3cf598d84eaf63c2e" upstream="refs/heads/ese-vendor.lnx.13.0.r1-rel">
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/javacard-vendor-board.mk" src="keymaster/javacard_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/javacard-vendor-product.mk" src="keymaster/javacard_vendor_product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/keymint-vendor-board.mk" src="keymint/keymint_vendor_board.mk"/>
