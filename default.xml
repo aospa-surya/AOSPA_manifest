@@ -14,7 +14,8 @@
           fetch="https://git.codelinaro.org/clo/la"
           sync-c="true"
           sync-tags="false"
-          review="codelinaro.org"/>
+          review="codelinaro.org"
+          revision="partner-android/t-fs-release"/>
 
   <default remote="clo-la"/>
 
