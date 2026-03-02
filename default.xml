@@ -52,6 +52,10 @@
            fetch="https://github.com/rd-stuffs"
            revision="topaz" />
 
+  <remote  name="fannndi"
+           fetch="https://github.com/fannndi"
+           revision="topaz-re" />
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
