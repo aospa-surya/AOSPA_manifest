@@ -199,7 +199,7 @@
   <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" />
 
   <!-- Vendor (AOSPA) -->
-  <project path="vendor/aospa" name="android_vendor_aospa" remote="fannndi" >
+  <project path="vendor/aospa" name="android_vendor_aospa" remote="forks" >
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/aospa/apps/ParanoidThemePicker" name="vendor_aospa_apps_ParanoidThemePicker" remote="forks" />
