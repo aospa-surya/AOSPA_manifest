@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="fannndi"
+           fetch="https://github.com/fannndi"
+           revision="uvite" />
+
+  <project path="vendor/google/modules" name="proprietary_vendor_google_modules" clone-depth="1" remote="fannndi" />
+
+</manifest>
