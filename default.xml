@@ -51,7 +51,6 @@
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
-  <include name="modules.xml"/>
   <include name="rm.xml"/>
   <include name="rd.xml"/>
 
