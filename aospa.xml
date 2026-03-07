@@ -112,7 +112,7 @@
   <project path="kernel/configs" name="AOSPA/android_kernel_configs" remote="aospa" />
 
   <!-- Manifest -->
-  <project path="manifest" name="aospa-pipa/manifest" remote="aospa" />
+  <project path="manifest" name="fannndi/AOSPA_manifest" remote="aospa" revision="topaz-new"/>
 
   <!-- Packages (AOSPA) -->
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
@@ -184,7 +184,7 @@
   <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" />
 
   <!-- Vendor (AOSPA) -->
-  <project path="vendor/aospa" name="aospa-pipa/android_vendor_aospa" remote="aospa" >
+  <project path="vendor/aospa" name="fannndi/android_vendor_aospa" remote="aospa" revision="topaz-new">
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/aospa/apps/ParanoidThemePicker" name="AOSPA/vendor_aospa_apps_ParanoidThemePicker" remote="aospa" />
