@@ -3,13 +3,13 @@
 
   <!-- Build and Core -->
   <remove-project name="platform/art" />
-  <project path="art" name="AOSPA/android_art" remote="aospa" />
+  <project path="art" name="aospa-surya/android_art" remote="aospa" />
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="aospa-pipa/android_bionic" remote="aospa" />
+  <project path="bionic" name="aospa-surya/android_bionic" remote="aospa" />
   <remove-project name="platform/build/blueprint" />
-  <project path="build/blueprint" name="AOSPA/android_build_blueprint" remote="aospa" />
+  <project path="build/blueprint" name="aospa-surya/android_build_blueprint" remote="aospa" />
   <remove-project name="platform/build_repo" />
-  <project path="build/make" name="aospa-pipa/android_build" remote="aospa" >
+  <project path="build/make" name="aospa-surya/android_build" remote="aospa" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -18,31 +18,31 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="aospa-pipa/android_build_soong" remote="aospa" >
+  <project path="build/soong" name="aospa-surya/android_build_soong" remote="aospa" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <remove-project name="platform/libcore" />
-  <project path="libcore" name="aospa-pipa/android_libcore" remote="aospa" />
+  <project path="libcore" name="aospa-surya/android_libcore" remote="aospa" />
 
   <!-- Bootable -->
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" />
+  <project path="bootable/recovery" name="aospa-surya/android_bootable_recovery" remote="aospa" />
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
-  <project path="device/qcom/common" name="aospa-pipa/android_device_qcom_common" remote="aospa" >
+  <project path="device/qcom/common" name="aospa-surya/android_device_qcom_common" remote="aospa" >
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
   <remove-project name="device/qcom/qssi" />
-  <project path="device/qcom/qssi" name="aospa-pipa/android_device_qcom_qssi" remote="aospa" />
+  <project path="device/qcom/qssi" name="aospa-surya/android_device_qcom_qssi" remote="aospa" />
   <remove-project name="device/qcom/sepolicy" />
-  <project path="device/qcom/sepolicy" name="aospa-pipa/android_device_qcom_sepolicy" remote="aospa" />
+  <project path="device/qcom/sepolicy" name="aospa-surya/android_device_qcom_sepolicy" remote="aospa" />
   <remove-project name="device/qcom/sepolicy_vndr" />
-  <project path="device/qcom/sepolicy_vndr" name="AOSPA/android_device_qcom_sepolicy_vndr" remote="aospa" />
+  <project path="device/qcom/sepolicy_vndr" name="aospa-surya/android_device_qcom_sepolicy_vndr" remote="aospa" />
   <remove-project name="device/qcom/vendor-common" />
   <project path="device/qcom/vendor-common" name="AOSPA/android_device_qcom_vendor-common" remote="aospa" />
-  <project path="device/qcom/kernelscripts" name="aospa-pipa/android_kernel_build" remote="aospa" >
+  <project path="device/qcom/kernelscripts" name="aospa-surya/android_kernel_build" remote="aospa" >
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
   </project>
 
