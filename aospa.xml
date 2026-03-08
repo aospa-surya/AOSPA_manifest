@@ -80,13 +80,13 @@
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="aospa-pipa/android_frameworks_av" remote="aospa" />
+  <project path="frameworks/av" name="aospa-surya/android_frameworks_av" remote="aospa" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="aospa-pipa/android_frameworks_base" remote="aospa" />
+  <project path="frameworks/base" name="aospa-surya/android_frameworks_base" remote="aospa" />
   <remove-project name="platform/frameworks/libs/systemui" />
-  <project path="frameworks/libs/systemui" name="AOSPA/android_frameworks_libs_systemui" remote="aospa" />
+  <project path="frameworks/libs/systemui" name="aospa-surya/android_frameworks_libs_systemui" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="aospa-pipa/android_frameworks_native" remote="aospa" />
+  <project path="frameworks/native" name="aospa-surya/android_frameworks_native" remote="aospa" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" />
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -96,9 +96,9 @@
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
-  <project path="hardware/interfaces" name="aospa-pipa/android_hardware_interfaces" remote="aospa" />
+  <project path="hardware/interfaces" name="aospa-surya/android_hardware_interfaces" remote="aospa" />
   <remove-project name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
+  <project path="hardware/libhardware" name="aospa-surya/android_hardware_libhardware" remote="aospa" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="aospa" />
   <remove-project name="platform/hardware/st/nfc" />
@@ -160,25 +160,25 @@
 
   <!-- System -->
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="aospa-pipa/android_system_core" remote="aospa" />
+  <project path="system/core" name="aospa-surya/android_system_core" remote="aospa" />
   <remove-project name="platform/system/chre" />
-  <project path="system/chre" name="AOSPA/android_system_chre" remote="aospa" />
+  <project path="system/chre" name="aospa-surya/android_system_chre" remote="aospa" />
   <remove-project name="platform/system/libhidl" />
-  <project path="system/libhidl" name="AOSPA/android_system_libhidl" remote="aospa" />
+  <project path="system/libhidl" name="aospa-surya/android_system_libhidl" remote="aospa" />
   <remove-project name="platform/system/media" />
-  <project path="system/media" name="AOSPA/android_system_media" remote="aospa" />
+  <project path="system/media" name="aospa-surya/android_system_media" remote="aospa" />
   <remove-project name="platform/system/memory/lmkd" />
-  <project path="system/memory/lmkd" name="AOSPA/android_system_memory_lmkd" remote="aospa" />
+  <project path="system/memory/lmkd" name="aospa-surya/android_system_memory_lmkd" remote="aospa" />
   <remove-project name="platform/system/qcom" />
-  <project path="vendor/qcom/opensource/softap" name="AOSPA/android_system_qcom" remote="aospa" />
+  <project path="vendor/qcom/opensource/softap" name="aospa-surya/android_system_qcom" remote="aospa" />
   <remove-project name="platform/system/security" />
-  <project path="system/security" name="AOSPA/android_system_security" remote="aospa" />
+  <project path="system/security" name="aospa-surya/android_system_security" remote="aospa" />
   <remove-project name="platform/system/sepolicy" />
-  <project path="system/sepolicy" name="aospa-pipa/android_system_sepolicy" remote="aospa" />
+  <project path="system/sepolicy" name="aospa-surya/android_system_sepolicy" remote="aospa" />
   <remove-project name="platform/system/update_engine" />
-  <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" />
+  <project path="system/update_engine" name="aospa-surya/android_system_update_engine" remote="aospa" />
   <remove-project name="platform/system/vold" />
-  <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" />
+  <project path="system/vold" name="aospa-surya/android_system_vold" remote="aospa" />
 
   <!-- Tools (AOSPA) -->
   <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" />
