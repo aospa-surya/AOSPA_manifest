@@ -95,6 +95,8 @@
   <project path="frameworks/proto_logging" name="AOSPA/android_frameworks_proto_logging" remote="aospa" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/google/interfaces" />
+  <project path="hardware/google/interfaces" name="aospa-surya/android_hardware_google_interfaces" remote="aospa" />
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="aospa-surya/android_hardware_interfaces" remote="aospa" />
   <remove-project name="platform/hardware/libhardware" />
@@ -113,6 +115,9 @@
 
   <!-- Manifest -->
   <project path="manifest" name="aospa-surya/AOSPA_manifest" remote="aospa" revision="topaz-new"/>
+ 
+   <!-- Packages -->
+  <project path="packages/apps/GameSpace" name="aospa-surya/android_packages_apps_GameSpace" remote="aospa" />
 
   <!-- Packages (AOSPA) -->
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
