@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/aospa-pipa/manifest -b topaz
+$ repo init -u https://github.com/aospa-surya/AOSPA_manifest -b topaz-new
 ```
 
 ### Downloading the source tree ###
